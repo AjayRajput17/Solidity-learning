@@ -6,9 +6,12 @@ pragma solidity ^0.8.0;
 
 contract MyContract {
     // state variable
-    // Local Variable
+    uint public myUint = 1;
+    uint256 public myUint256  = 1;
 
-    function getValue() public {
-        
+    // Local Variable
+    function getValue() public pure returns(uint) {
+        uint value = 1;
+        return  value;
     }
 }
