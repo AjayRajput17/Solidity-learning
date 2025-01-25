@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Mapping.sol": "Name"
+			"contracts/If-Else.sol": "WhileL"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -32,12 +32,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Mapping.sol": {
-			"keccak256": "0xdb461dc4b87fae560bfa1f26cbe61c0f2430c5c40d46787ecc1810afcb252cdc",
+		"contracts/If-Else.sol": {
+			"keccak256": "0x77ea8dab86dd16ee6a740558466a47e8edde8c3d7e9fa2e50d88ad8da4921d2c",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://3b8f4f42d19329c2092ab4cfe98680ee054304f4ec2b6ac4892b78f9356d08ea",
-				"dweb:/ipfs/QmbQCELjeqV12hwxhitD4sKntHeqyCGfdm1zjnSq7i2CBn"
+				"bzz-raw://bc45f2f6dc76707c71dac3bef2396d9a8897fd84d6e9ccc166d4a240a5e9fd5b",
+				"dweb:/ipfs/QmawuMH4QarusGVhbQcYrDg65Gn3LcaByqASsFrypqsCiT"
 			]
 		}
 	},

@@ -1,0 +1,69 @@
+{
+	"id": "4e14dfdf10d52099924e8ef5240aea41",
+	"_format": "hh-sol-build-info-1",
+	"solcVersion": "0.8.26",
+	"solcLongVersion": "0.8.26+commit.8a97fa7a",
+	"input": {
+		"language": "Solidity",
+		"sources": {
+			"contracts/If-Else.sol": {
+				"content": "\r\n// SPDX-License-Identifier: MIT\r\npragma solidity ^0.8.13;\r\n\r\n// IF_ELSE\r\n// contract IfElse {\r\n//     uint public myNum = 5;\r\n//     string public myString;\r\n\r\n//     function get(uint _num) public returns(string memory){\r\n\r\n//         if(_num  == 5){\r\n//             myString = \"Number is 5\";\r\n//         } else {\r\n//             myString = \"Number is Not 5\";\r\n//         } \r\n//     }\r\n\r\n//     function get(uint _num) public returns(string memory){\r\n\r\n//         return _num == 5 ? myString = \"No is 5\" : myString = \"No is not 5\";\r\n\r\n//     }\r\n\r\n\r\n// }\r\n\r\n\r\n//LOOPS\r\n\r\n// contract WhileLoop {\r\n\r\n//     // while(condition){\r\n//     //     Set of statements\r\n//     // }\r\n    \r\n//     uint[]  data;\r\n//     uint8 k =0;\r\n\r\n//     function loop() public returns(uint[] memory){\r\n//         while(k < 5){\r\n//             k++;\r\n//             data.push(k);\r\n//         }\r\n//         return data;\r\n//     }\r\n\r\n// }\r\n\r\n// DO_WHILE LOOP\r\n\r\n// contract DoWhile {\r\n//     // do {\r\n//     //     //statement\r\n//     // }while(coondition)\r\n\r\n//     uint[] data;\r\n//     uint j =0;\r\n\r\n//     function loop() public returns(uint[] memory){\r\n//         do{\r\n//             j++;\r\n//             data.push(j);\r\n//         }while(j < 5);\r\n//         return data;\r\n//     }\r\n// }\r\n\r\n// FOR LOOP\r\n\r\n// contract forLoop {\r\n    \r\n//     // for(initialization;condition;iteration)\r\n//     uint[] data;\r\n   \r\n\r\n//     function loop() public returns(uint[] memory){\r\n//        for(uint i=0;i<5;i++){\r\n//         data.push(i);\r\n//        }\r\n//         return data;\r\n//     }\r\n\r\n\r\n// }\r\n\r\n// ERROR HANDLING\r\n// --- require statement\r\n\r\n// contract  Require{\r\n//     function checkinput(uint _input) public view returns(string memory){\r\n\r\n//         require(_input >=0, \"invalid uint8\");\r\n//         require(_input <= 255, \"invalid uint\");\r\n\r\n//         return \"input is Unit8\";\r\n//     }\r\n\r\n//     function Odd(uint _input) public pure  returns(bool){\r\n//         require(_input % 2 != 0,\"number is even\");\r\n//         return true;\r\n//     }\r\n// } \r\n\r\n// Assert satement\r\n\r\n// contract AssertStatement{\r\n\r\n//     bool public result;\r\n\r\n//     function checkOverFlow(uint _num1, uint _num2) public {\r\n//         uint sum = _num1 + _num2;\r\n//         assert(sum <=255);\r\n//         result = true;\r\n//     }\r\n// }\r\n\r\n// REVERT HANDELER\r\n\r\n// contract RevertStatement {\r\n    \r\n//     function checkOverflow(uint _num1, uint _num2) public view returns(string memory){\r\n//         uint sum = _num1 + _num2;\r\n//         if(sum < 0 || sum > 255){\r\n//             revert(\"Overflow exits\");\r\n//         }else{\r\n//             return(\"No overflow\");\r\n//         }\r\n//     }\r\n// }\r\n\r\n"
+			}
+		},
+		"settings": {
+			"optimizer": {
+				"enabled": false,
+				"runs": 200
+			},
+			"outputSelection": {
+				"*": {
+					"": [
+						"ast"
+					],
+					"*": [
+						"abi",
+						"metadata",
+						"devdoc",
+						"userdoc",
+						"storageLayout",
+						"evm.legacyAssembly",
+						"evm.bytecode",
+						"evm.deployedBytecode",
+						"evm.methodIdentifiers",
+						"evm.gasEstimates",
+						"evm.assembly"
+					]
+				}
+			},
+			"remappings": []
+		}
+	},
+	"output": {
+		"sources": {
+			"contracts/If-Else.sol": {
+				"ast": {
+					"absolutePath": "contracts/If-Else.sol",
+					"exportedSymbols": {},
+					"id": 2,
+					"license": "MIT",
+					"nodeType": "SourceUnit",
+					"nodes": [
+						{
+							"id": 1,
+							"literals": [
+								"solidity",
+								"^",
+								"0.8",
+								".13"
+							],
+							"nodeType": "PragmaDirective",
+							"src": "35:24:0"
+						}
+					],
+					"src": "35:2614:0"
+				},
+				"id": 0
+			}
+		}
+	}
+}

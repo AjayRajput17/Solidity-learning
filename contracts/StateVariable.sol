@@ -41,31 +41,45 @@ pragma solidity ^0.8.13;
 //     }
 // }
 
-contract GlobalVariables{
+// contract GlobalVariables{
 
-    address public owner;
-    address public Myblockhash;
-    uint256 public difficulty;
-    uint256 public gasLimit;
-    uint256 public number;
-    uint256 public timestamp;
-    uint256 public value;
-    uint256 public nowOn;
-    uint256 public origin;
-    uint256 public gasprice;
-    bytes public callData;
-    bytes public Firstfour;
+//     address public owner;
+//     address public Myblockhash;
+//     uint256 public difficulty;
+//     uint256 public gasLimit;
+//     uint256 public number;
+//     uint256 public timestamp;
+//     uint256 public value;
+//     uint256 public nowOn;
+//     uint256 public origin;
+//     uint256 public gasprice;
+//     bytes public callData;
+//     bytes public Firstfour;
 
 
-    constructor(){
-        owner = msg.sender;
-        Myblockhash = block.coinbase;
-        difficulty = block.difficulty;
-        gasLimit = block.gaslimit;
-        number = block.number;
-        timestamp = block.timestamp;
-        gasprice = tx.gasprice;
-        callData = msg.data;
+//     constructor(){
+//         owner = msg.sender;
+//         Myblockhash = block.coinbase;
+//         difficulty = block.difficulty;
+//         gasLimit = block.gaslimit;
+//         number = block.number;
+//         timestamp = block.timestamp;
+//         gasprice = tx.gasprice;
+//         callData = msg.data;
         
+//     }
+// }
+
+contract Constant {
+
+    // transaction cost 128609
+    // address public myAdd = 0x5B38Da6a701c568545dCfcB03FcB875f56beddC4;
+
+    // transaction cost 102745
+    address public constant  MY_ADDR = 0x5B38Da6a701c568545dCfcB03FcB875f56beddC4;
+
+    function getConstant()  public view returns(address){
+        return MY_ADDR;
     }
+    
 }

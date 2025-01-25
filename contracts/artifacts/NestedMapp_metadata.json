@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Mapping.sol": "Name"
+			"contracts/Mapping.sol": "NestedMapp"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -33,11 +33,11 @@
 	},
 	"sources": {
 		"contracts/Mapping.sol": {
-			"keccak256": "0xdb461dc4b87fae560bfa1f26cbe61c0f2430c5c40d46787ecc1810afcb252cdc",
+			"keccak256": "0xe7dca5fbbc18c9c80a93ed1ab46a903a4028fac7fd65d7d0e7fd41432ecb2bde",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://3b8f4f42d19329c2092ab4cfe98680ee054304f4ec2b6ac4892b78f9356d08ea",
-				"dweb:/ipfs/QmbQCELjeqV12hwxhitD4sKntHeqyCGfdm1zjnSq7i2CBn"
+				"bzz-raw://b18570132c050895813acb89293a91535a0625b1f746650f727511237ae18ae4",
+				"dweb:/ipfs/QmPmWRetaVx9wu2TrpBHprXmZeom2AH1EYm3Zp2CwX9phQ"
 			]
 		}
 	},

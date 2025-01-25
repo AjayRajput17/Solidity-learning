@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Mapping.sol": "Name"
+			"contracts/StateVariable.sol": "C"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -32,12 +32,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Mapping.sol": {
-			"keccak256": "0xdb461dc4b87fae560bfa1f26cbe61c0f2430c5c40d46787ecc1810afcb252cdc",
+		"contracts/StateVariable.sol": {
+			"keccak256": "0xceb0673ad99aaf25b5cc908cc8174731d290f8b6421087a8546de1b936c400eb",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://3b8f4f42d19329c2092ab4cfe98680ee054304f4ec2b6ac4892b78f9356d08ea",
-				"dweb:/ipfs/QmbQCELjeqV12hwxhitD4sKntHeqyCGfdm1zjnSq7i2CBn"
+				"bzz-raw://8e7270f77ab9391f3793bc65217adddd42c9619d9758bf64ee394503ceb4b31b",
+				"dweb:/ipfs/QmaZ3JNqt4u1GCg8tYGYTPtEchmJMbghH1DXXvz761icQK"
 			]
 		}
 	},
